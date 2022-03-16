@@ -62,7 +62,7 @@ If you have any trouble to make demo environment, you can refer [docker containe
 ### 1.clone repository
 
 ```
-$ git clone https://github.com/zaiin4050/demo_glean /demo_glean
+$ git clone https://github.com/zaiin4050/demo_glean demo_glean
 ```
 
 ### 2.download pre-trained weight files
@@ -76,7 +76,7 @@ Follow [this page](https://github.com/zaiin4050/demo_glean/releases/tag/v0.1)
 It takes time to create the engine file when it is first executed, and it is loaded immediately after that.
 
 ```
-$ cd /demo_glean/samples && make all
+$ cd demo_glean/samples && make all
 ```
 
 For Glean,

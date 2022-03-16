@@ -67,9 +67,17 @@ $ git clone https://github.com/zaiin4050/demo_glean demo_glean
 
 ### 2.download pre-trained weight files
 
+Download at [HERE](https://github.com/zaiin4050/demo_glean/releases/tag/v0.1)
 
-Follow [this page](https://github.com/zaiin4050/demo_glean/releases/tag/v0.1)
+# Prepare SoyNet weight
+* you need to install pytorch [reference](https://pytorch.org/get-started/previous-versions/) 
+```
 
+$ cd demo_glean/weight_extractor
+
+$ python weight_extrator.py
+
+```
 
 ### 3.Demo code Build and Run (C++)
 

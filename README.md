@@ -55,7 +55,7 @@ dll file (Windows), so file (Linux) with header or *.lib for building in C/C++
     - For CUDA 11.1, Nvidia-driver 450.80 or higher must be installed
 - Others: OpenCV (for reading video files and outputting the screen)
 
-If you have any trouble to make demo environment, you can refer [docker container](https://github.com/zaiin4050/demo_docker).
+If you have any trouble to make demo environment, you can refer [docker container](https://github.com/zaiin4050/demo_docker_img).
 
 ### Run SoyNet Demo
 

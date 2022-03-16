@@ -68,8 +68,7 @@ $ git clone https://github.com/zaiin4050/demo_glean /demo_glean
 ### 2.download pre-trained weight files
 
 ```
-$ cd /demo_yolo/mgmt/weights
-$ bash ./download_weights.sh
+ Follow [this page](https://github.com/zaiin4050/demo_glean/releases/tag/v0.1)
 ```
 
 ### 3.Demo code Build and Run (C++)

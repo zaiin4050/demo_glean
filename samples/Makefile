@@ -3,7 +3,7 @@ CFLAGS=-O2 -std=c++11
 SRCS=glean.cpp
 PROG=glean
 
-OPENCV=`pkg-config opencv --cflags --libs`
+OPENCV=`pkg-config opencv --cflags --libs` # if you use opencv 4.x, you need to change 'opencv' -> 'opencv4'
 INCS=-I../include
 LIBS=$(OPENCV) -L../lib -lpthread -lSoyNet 
 

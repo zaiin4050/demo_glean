@@ -90,5 +90,5 @@ $ cd demo_glean/samples && make all
 For Glean,
 
 ```
-$ LD_LIBRARY_PATH=/demo_glean/lib:$LD_LIBRARY_PATH ./glean
+$ LD_LIBRARY_PATH=[Path to the folder containing libSoyNet.so]:$LD_LIBRARY_PATH ./glean
 ```

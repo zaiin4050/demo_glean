@@ -69,6 +69,8 @@ $ git clone https://github.com/zaiin4050/demo_glean demo_glean
 
 Pre-converted SoyNet weight can be downloaded at [HERE](https://github.com/zaiin4050/demo_glean/releases/tag/v0.1)
 
+[HERE](https://github.com/zaiin4050/demo_glean/releases/download/v0.1/glean.weights)
+
 #### Prepare SoyNet weight
 * you can convert pytorch weight file to SoyNet weight file with weight_extractor.py. (it requires pytorch)  
   pytorch [install](https://pytorch.org/get-started/previous-versions/) 

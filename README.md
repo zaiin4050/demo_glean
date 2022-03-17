@@ -70,7 +70,7 @@ $ git clone https://github.com/zaiin4050/demo_glean demo_glean
 Download at [HERE](https://github.com/zaiin4050/demo_glean/releases/tag/v0.1)
 
 #### Prepare SoyNet weight
-* you need to install pytorch to run weight_extractor.py
+* you need to install pytorch to run weight_extractor.py  
   pytorch [install](https://pytorch.org/get-started/previous-versions/) 
 ```
 

@@ -67,20 +67,15 @@ $ git clone https://github.com/zaiin4050/demo_glean demo_glean
 
 ### 2.download pre-trained weight files
 
-Pre-converted SoyNet weight can be downloaded at [HERE](https://github.com/zaiin4050/demo_glean/releases/tag/v0.1)
-
-[HERE](https://github.com/zaiin4050/demo_glean/releases/download/v0.1/glean.weights)
+Pre-converted SoyNet weight can be downloaded at [HERE](https://github.com/zaiin4050/demo_glean/releases/download/v0.1/glean.weights)
 
 #### Prepare SoyNet weight
-* you can convert pytorch weight file to SoyNet weight file with weight_extractor.py. (it requires pytorch)  
-  pytorch [install](https://pytorch.org/get-started/previous-versions/) 
+* If you have your own custom pytorch weight file, you can convert pytorch weight file to SoyNet weight file with weight_extractor.py. 
 ```
-
 $ cd demo_glean/weight_extractor
-
 $ python weight_extrator.py
-
 ```
+* To run weightb_extractor.py, it requires pytorch ([PyTorch Install](https://pytorch.org/get-started/previous-versions/))  
 
 ### 3.Demo code Build and Run (C++)
 
